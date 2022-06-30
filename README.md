@@ -33,8 +33,7 @@ This is a React.js test app that's suppose to test the implementation of React-R
 
 ## Notes to Self
 
-Most documentation on react-router-dom mention use of Switch exports, but as of v6, Switch is now Routes. This is not found in official documentation for React-Router-DOM as of v6. More information can be found here:<br/>
-        - https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom
+Most documentation on react-router-dom mention use of Switch exports, but as of v6, Switch is now Routes. This is not found in official documentation for React-Router-DOM as of v6. More information can be found [here](https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom).
 <br/>
 <br/>
 
@@ -42,8 +41,20 @@ If you work off the react-router-dom documentation, you will get the following e
 
                 [About] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
 
-You will need to place the component import w/i an element tag in order to import them. More info can be found here:<br/>
-https://stackoverflow.com/questions/69864165/error-privateroute-is-not-a-route-component-all-component-children-of-rou
+You will need to place the component import w/i an element tag in order to import them. More info can be found [here](https://stackoverflow.com/questions/69864165/error-privateroute-is-not-a-route-component-all-component-children-of-rou).
+
+**Example:** Code taken from src/components/Navigation/index.js from [YKB-Solutions](https://github.com/jermeewinn/YKB-solutions/tree/components):
+
+                <div>
+                    <Routes>
+                        <Route path="/" element={<Home />} />         
+                        <Route path="/about" element={<About />} />                            
+                        <Route path="/services" element={<Services />} />
+                        <Route path="/resources" element={<Resources />} />                            
+                        <Route path="/testimonials" element={<Testimonials />} />                            
+                        <Route path="/contact" element={<Contact />} />   
+                    </Routes>
+                </div>
 
 ## Author
 
