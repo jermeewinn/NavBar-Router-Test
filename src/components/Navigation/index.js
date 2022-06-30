@@ -9,6 +9,7 @@ import {
 
 import Home from '../Home';
 import About from '../About';
+import Resources from '../Resources';
 import LinkTest from '../LinkTest';
 
 
@@ -26,10 +27,7 @@ export default class Navigation extends Component {
                   <Nav.Link as={Link} to="/" href="#home">Home</Nav.Link>
                   <Nav.Link as={Link} to="/linktest" href="#linktest">LinkTest</Nav.Link>
                   <Nav.Link as={Link} to="/about" href="#about">About</Nav.Link>
-                  <Nav.Link href="#Resources">Resources</Nav.Link>
-                  <Nav.Link href="#services">Services</Nav.Link>
-                  <Nav.Link href="#Testimonials">Testimonials</Nav.Link>
-                  <Nav.Link href="#Contact">Contact</Nav.Link>
+                  <Nav.Link as={Link} to="/resources" href="#resources">Resources</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -41,7 +39,9 @@ export default class Navigation extends Component {
             
             <Route path="/about" element={<About />} />              
             
-            <Route path="/linktest" element={<LinkTest />} />            
+            <Route path="/linktest" element={<LinkTest />} />     
+
+            <Route path="/resources" element={<Resources />} />       
           </Routes>
         </div>
       </Router>
