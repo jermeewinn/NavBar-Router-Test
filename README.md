@@ -39,22 +39,22 @@ Most documentation on react-router-dom mention use of Switch exports, but as of 
 
 If you work off the react-router-dom documentation, you will get the following error:
 
-                [About] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
+        [About] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
 
 You will need to place the component import w/i an element tag in order to import them. More info can be found [here](https://stackoverflow.com/questions/69864165/error-privateroute-is-not-a-route-component-all-component-children-of-rou).
 
 **Example:** Code taken from src/components/Navigation/index.js from [YKB-Solutions](https://github.com/jermeewinn/YKB-solutions/tree/components):
 
-                <div>
-                    <Routes>
-                        <Route path="/" element={<Home />} />         
-                        <Route path="/about" element={<About />} />                            
-                        <Route path="/services" element={<Services />} />
-                        <Route path="/resources" element={<Resources />} />                            
-                        <Route path="/testimonials" element={<Testimonials />} />                            
-                        <Route path="/contact" element={<Contact />} />   
-                    </Routes>
-                </div>
+        <div>
+                <Routes>
+                <Route path="/" element={<Home />} />         
+                <Route path="/about" element={<About />} />                            
+                <Route path="/services" element={<Services />} />
+                <Route path="/resources" element={<Resources />} />                            
+                <Route path="/testimonials" element={<Testimonials />} />                            
+                <Route path="/contact" element={<Contact />} />   
+                </Routes>
+        </div>
 
 ## Author
 
