@@ -1,6 +1,6 @@
 # NavBar-Router-Test
 
-This is a React.js test app that's suppose to test the implementation of React-Router-DOM a& React Bootstrap Navigation components into a frontend React.js project. Sources used:
+This is a React.js test app that's suppose to test the implementation of React-Router-DOM a& React Bootstrap Navigation components into a frontend React.js project. Here, we'll also be testing out different types of frontend React-Bootstrap components. Sources used:
 - [https://v5.reactrouter.com/web/guides/quick-start](https://v5.reactrouter.com/web/guides/quick-start)
 - [https://www.youtube.com/watch?v=0wJCxEDDetE](https://www.youtube.com/watch?v=0wJCxEDDetE)
 - [https://www.youtube.com/watch?v=SLfhMt5OUPI&t=19s](https://www.youtube.com/watch?v=SLfhMt5OUPI&t=19s)
@@ -32,7 +32,6 @@ This is a React.js test app that's suppose to test the implementation of React-R
 ![React NavBar_Router-DOM Test, 06_21_2022 (1)](https://user-images.githubusercontent.com/88342540/176579918-7815798f-ed0b-48d9-999a-cceaff389913.gif)
 
 ## Notes to Self
-
 Most documentation on react-router-dom mention use of Switch exports, but as of v6, Switch is now Routes. This is not found in official documentation for React-Router-DOM as of v6. More information can be found [here](https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom).
 <br/>
 <br/>
@@ -57,5 +56,4 @@ You will need to place the component import w/i an element tag in order to impor
         </div>
 
 ## Author
-
 This application was created by [Jeremy Huynh](https://www.linkedin.com/in/jeremy-huynh/). For inquiries, please reach out at jeahuynh18@gmail.com.
