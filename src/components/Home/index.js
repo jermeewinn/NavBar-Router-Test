@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
+import Object from '../Home/Carousel';
+// import Carousel from 'react-bootstrap';
+// import Photo1 from '../assets/crazy.jpg';
 
 export default class Home extends Component {
     render() {
@@ -11,6 +14,7 @@ export default class Home extends Component {
                 <div>
                     <h1>Home</h1>
                     <p>Lookin cute.</p>
+                    <Object />
                 </div>
             </>
         )
