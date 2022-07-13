@@ -5,11 +5,9 @@ export default class Home extends Component {
     render() {
         return (
             <>
-                <div>
-                    <Helmet>
-                        <title>Navbar-Router-Test | Home</title>
-                    </Helmet>
-                </div>
+                <Helmet>
+                    <title>Navbar-Router-Test | Home</title>
+                </Helmet>
                 <div>
                     <h1>Home</h1>
                     <p>Lookin cute.</p>
