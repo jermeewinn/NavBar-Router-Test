@@ -12,18 +12,21 @@ function Object () {
     };
 
     return(
-        <Carousel variant='dark' activeIndex={index} onSelect={handleSelect} interval={null}>
+        <Carousel variant='dark' activeIndex={index} onSelect={handleSelect} interval={null} className='carousel'>
             <Carousel.Item>
-                {/* <img
+                <img
                     className='carousel-img'
                     src={Photo1}
                     alt='Sonia'
-                /> */}
+                />
                 <h1 className='carousel-top'>Stuff</h1>
                 <Carousel.Caption>
                 
-                    <h3>First Slide</h3>
-                    <p>Lorem ipsum stuff</p>
+                    <div>
+                        <h3>First Slide</h3>
+                        <pr/>
+                        <p>Lorem ipsum stuff</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,6 +35,7 @@ function Object () {
                     src={Photo2}
                     alt='Bubbles'
                 /> */}
+                <h1 className='carousel-top'>More Stuff</h1>
                 <Carousel.Caption>
                     <h3>Second Slide</h3>
                     <p>More lorem ipsum</p>
@@ -43,6 +47,7 @@ function Object () {
                     src={Photo3}
                     alt='Cyberpunk'
                 /> */}
+                <h1 className='carousel-top'>Even More Stuff</h1>
                 <Carousel.Caption>
                     <h3>Third slide</h3>
                     <p>More lorem ipsum</p>
