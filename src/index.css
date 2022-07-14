@@ -18,8 +18,19 @@ img {
   align-items: center;
 }
 
+.home-top {
+  margin-bottom: 100px;
+}
+
 .carousel-img {
   max-width: 200px;
   max-height: 150px;
   align-content: center;
+}
+
+.carousel-top {
+  max-width: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
 }

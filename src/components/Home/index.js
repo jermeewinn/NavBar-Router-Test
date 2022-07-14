@@ -11,7 +11,7 @@ export default class Home extends Component {
                 <Helmet>
                     <title>Navbar-Router-Test | Home</title>
                 </Helmet>
-                <div>
+                <div className='home-top'>
                     <h1>Home</h1>
                     <p>Lookin cute.</p>
                 </div>

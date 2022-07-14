@@ -12,13 +12,14 @@ function Object () {
     };
 
     return(
-        <Carousel variant='dark' activeIndex={index} onSelect={handleSelect}>
+        <Carousel variant='dark' activeIndex={index} onSelect={handleSelect} interval={null}>
             <Carousel.Item>
                 {/* <img
                     className='carousel-img'
                     src={Photo1}
                     alt='Sonia'
                 /> */}
+                <h1 className='carousel-top'>Stuff</h1>
                 <Carousel.Caption>
                 
                     <h3>First Slide</h3>
