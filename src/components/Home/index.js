@@ -14,6 +14,8 @@ export default class Home extends Component {
                 <div>
                     <h1>Home</h1>
                     <p>Lookin cute.</p>
+                </div>
+                <div>
                     <Object />
                 </div>
             </>
